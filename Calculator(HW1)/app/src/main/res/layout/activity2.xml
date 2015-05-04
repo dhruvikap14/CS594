@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="0"
+        android:textSize="40dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="right" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="Sin"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:id="@+id/buttonsin"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="Cos"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:id="@+id/buttoncos"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/buttonsin" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="Tan"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:id="@+id/buttontan"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/buttoncos" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:id="@+id/buttonC"
+        android:layout_alignTop="@+id/buttonpie"
+        android:layout_toEndOf="@+id/buttonpie"
+        android:layout_alignBottom="@+id/buttonpower" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="e"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:id="@+id/buttone"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/buttontan" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="ln"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:id="@+id/buttonln"
+        android:layout_below="@+id/buttonsin"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="log"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:id="@+id/buttonlog"
+        android:layout_below="@+id/buttoncos"
+        android:layout_toEndOf="@+id/buttonsin" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="π"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:id="@+id/buttonpie"
+        android:layout_below="@+id/buttoncos"
+        android:layout_toEndOf="@+id/buttoncos" />
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="%"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:id="@+id/buttonper"
+        android:layout_below="@+id/buttonln"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:id="@+id/buttonfact"
+        android:layout_alignTop="@+id/buttonper"
+        android:layout_toEndOf="@+id/buttonper" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="Sqrt"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:id="@+id/buttonsqrt"
+        android:layout_below="@+id/buttonlog"
+        android:layout_toEndOf="@+id/buttonlog" />
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="("
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:id="@+id/buttonbr1"
+        android:layout_below="@+id/buttonper"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text=")"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:id="@+id/buttonbr2"
+        android:layout_below="@+id/buttonper"
+        android:layout_toEndOf="@+id/buttonper" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonpower"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:layout_below="@+id/buttonfact"
+        android:layout_toEndOf="@+id/buttonfact"
+        android:text="^"
+        android:textStyle="bold"
+    />
+
+</RelativeLayout>
