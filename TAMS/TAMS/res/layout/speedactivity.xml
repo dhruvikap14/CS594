@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  android:background="#FFFFFF"
+   >
+
+    <Button
+        android:id="@+id/btnmap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selectreset"
+        android:enabled="false"
+        android:text="" />
+    
+    <RelativeLayout 
+        android:id="@+id/ml"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:layout_below="@+id/btnmap"
+          android:layout_marginBottom="45dp">
+        <RelativeLayout  android:id="@+id/rLspeed"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"></RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
