@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgcompass"
+    android:orientation="vertical" >
+    <ScrollView 
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Speed :    " />
+    
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_toRightOf="@+id/tv_1"
+        android:layout_below="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Speedometer is an	application that will show you speed of your vehicle." />
+    
+     <TextView
+        android:id="@+id/tv_3"
+        android:layout_below="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Location :" />
+    
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_toRightOf="@+id/tv_3"
+        android:layout_below="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Location will help you know your exact location and get directions towards your destination. You can get  route by double tapping your destination and clear out all selected routes by options menu." />
+    
+     <TextView
+        android:id="@+id/tv_5"
+        android:layout_below="@+id/tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Compass :"/>
+    
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_toRightOf="@+id/tv_5"
+        android:layout_below="@+id/tv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="You can use compass as navigational instrument." />
+    
+    
+     <TextView
+        android:id="@+id/tv_7"
+        android:layout_below="@+id/tv_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Setting :  " />
+    
+    <TextView
+        android:id="@+id/tv_8"
+        android:layout_toRightOf="@+id/tv_7"
+        android:layout_below="@+id/tv_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="You can change you speed meassure-ment units,You can specify you speed restriction number and you will be notified by audio tones on crossing you speed limits.And you can change your speed notification tone." />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>
